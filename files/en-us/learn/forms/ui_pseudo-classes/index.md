@@ -253,7 +253,7 @@ input:invalid + span::before {
   color: red;
 }
 
-input:valid + span::before {
+input:valid + span::after {
   content: "✓";
   color: green;
 }
